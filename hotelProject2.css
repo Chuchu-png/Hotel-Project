@@ -1,0 +1,108 @@
+#HotelOne {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  padding: 20px;
+  background-color: RGBA(30, 44, 79, 0.5);
+  border-radius: 25px;
+}
+
+#HotelTwo {
+  position: absolute;
+  top: 70%;
+  left: 23%;
+  padding: 20px;
+  background-color: RGBA(30, 44, 79, 0.5);
+  border-radius: 25px;
+}
+
+#HotelThree {
+  position: absolute;
+  top: 110%;
+  left: 23%;
+  padding: 20px;
+  background-color: RGBA(30, 44, 79, 0.5);
+  border-radius: 25px;
+}
+
+#HotelFour {
+  position: absolute;
+  top: 150%;
+  left: 23%;
+  padding: 20px;
+   background-color: RGBA(30, 44, 79, 0.5);
+  border-radius: 25px;
+}
+
+#HotelFive {
+  position: absolute;
+  top: 190%;
+  left: 23%;
+  padding: 20px;
+  background-color: RGBA(30, 44, 79, 0.5);
+  border-radius: 25px;
+  
+}
+
+#HotelSix {
+  position: absolute;
+  top: 230%;
+  left: 23%;
+  padding: 20px;
+   background-color: RGBA(30, 44, 79, 0.5);
+  border-radius: 25px;
+}
+
+#titlediv {
+  background-color:RGBA(275, 255, 255);
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#title {
+  color: black;
+  letter-spacing: 5px;
+  position: absolute;
+  top: -40%;
+  left: 34%;
+  font-size: 50px;
+}
+
+#logo {
+  width: 100px;
+  height:100px;
+  background-image: url("grapeLogo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+p {
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+li {
+  color:white;
+}
+
+
+button {
+  color: black;
+  background-color: RGBA(255, 255, 255);
+}
+
+body {
+  background-image: url("backgroundleaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+    background-color: blue;
+  outline: none;
+  border: no;
+}
