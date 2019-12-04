@@ -5,6 +5,10 @@ var switch4 = true;
 var switch5 = true;
 var switch6 = true;
 
+//This is an empty array that will store the people that have checked into your hotel.
+var pastguests =[];
+
+
     function lock() {
       if (switch1 == true) {
         document.getElementById('hide').style.visibility = "hidden";
@@ -97,6 +101,7 @@ var switch6 = true;
       }
     }
     
+//This is the add guest function for room 1
 function addMe() {
     var z = document.getElementById("room1");
     var people = z.getElementsByTagName("li");
@@ -109,6 +114,12 @@ function addMe() {
       var a = time.toLocaleString();
       var newList= document.createElement("li");
       var u = document.getElementById("user").value + a;
+        
+        //This pushes the user into the pastguests array.
+        pastguests.push(u); 
+        //This will print the pastguests array to the screen.
+        document.getElementById('pastguestslist').innerHTML = pastguests; 
+        
       var newText= document.createTextNode(u);
       newList.appendChild(newText);
       var position = document.getElementsByTagName("ol")[0];
