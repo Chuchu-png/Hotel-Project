@@ -1,0 +1,29 @@
+a {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 45px;
+  font-size: 300%;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+
+a:hover {
+  color: RGBA(152, 240, 144, 0.7);
+}
+
+body {
+  background-image: url("backgroundleaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+   font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 53%;
+  left: 40%;
+}
